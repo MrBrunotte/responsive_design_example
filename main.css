@@ -1,0 +1,16 @@
+/* Create the specifications for the box class .box */
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+/*Media query groups together one or more CSS style rules and triggers the activation
+  of those style rules when the viewport or device size reaches a certain size in pixels */
+
+@media (max-width: 767px) {
+    .mobile {
+        background-color: #0997d3;
+    }
+}
